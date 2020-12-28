@@ -1,0 +1,36 @@
+.challenges {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.challenges__table {
+  background: rgba(0, 0, 0, 0.4);
+  padding-bottom: 20px;
+  border: 1px solid black;
+}
+
+.challenges__table h1 {
+  color: #ffc52d;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.challenges__table h4 {
+  color: white;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.challenges__row {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.challenges__ad {
+  height: 100px;
+  width: 700px;
+  margin-left: 130px;
+}

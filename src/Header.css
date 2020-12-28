@@ -1,0 +1,143 @@
+.header__top {
+  color: #c5c2bc;
+  background-color: #343434;
+}
+
+.header__top {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__clock {
+  font-weight: 500;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.header__help {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.header__help > button {
+  height: 25px;
+  object-fit: contain;
+  color: #c5c2bc;
+  background-color: #4e4e4d;
+  border: none;
+  margin-left: 5px;
+  font-weight: 1000;
+  cursor: pointer;
+}
+
+.header__help > button:hover {
+  color: white;
+}
+
+.header__bottom {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  background-image: linear-gradient(to bottom, #3e3e3d, #2f2f2f);
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+}
+
+.header__logo {
+  object-fit: contain;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  margin-left: 70px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.header__options {
+  display: flex;
+  margin: auto;
+  text-decoration: none;
+}
+
+.header__linker {
+  font-size: 15px;
+  font-weight: 700;
+  color: #b6b4aa;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__linker:hover {
+  color: #ffffff;
+}
+
+.header__auth {
+  display: flex;
+  margin-right: 100px;
+  align-items: center;
+}
+
+.header__auth > button {
+  font-size: 15px;
+  font-weight: 600;
+  height: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header__auth > button:hover {
+  color: #ffffff;
+}
+
+#header__auth__login {
+  border: 1px solid black;
+  color: #abaaa1;
+  background-image: linear-gradient(to bottom, #5f5f5f, #424242);
+  font-weight: 700;
+  font-size: 15px;
+  height: 40px;
+  width: 70px;
+  margin: 10px;
+}
+
+#header__auth__signup {
+  border: 1px solid black;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #79ca3e, #60a72c);
+  font-weight: 700;
+  font-size: 15px;
+  height: 40px;
+  width: 70px;
+}
+
+#header__auth__login:hover,
+#header__auth__signup:hover {
+  cursor: pointer;
+}
+
+/* To create a popup message */
+.header__clockText {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  margin-left: -17px;
+  margin-bottom: -70px;
+}
+
+.header__clock:hover .header__clockText {
+  visibility: visible;
+}

@@ -1,0 +1,64 @@
+.body {
+  color: white;
+  object-fit: contain;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body__ads {
+  margin-left: 100px;
+  width: 200px;
+}
+
+.body__mobileApp {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.body__mobileApp > img {
+  height: 250px;
+  width: 190px;
+}
+
+.body__mobileApp > button {
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 160px;
+  border: 1px solid black;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #79ca3e, #60a72c);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.body__facebook {
+  background-color: white;
+  margin-left: 10px;
+  width: 180px;
+}
+
+.body__facebook h4 {
+  color: #3f3d3a;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.body__facebook h6 {
+  color: #9f9c96;
+  padding: 10px;
+}
+
+.body__games h1 {
+  color: #ffc52d;
+  padding: 30px;
+}
+
+.body__games h4 {
+  color: white;
+  padding: 20px;
+}

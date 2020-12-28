@@ -1,0 +1,36 @@
+.row__game {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.row__game > button {
+  height: 50px;
+  width: 50%;
+  color: #ffc52d;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: black;
+  border: 0;
+  color: #ffc52d;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.row__game > button:hover {
+  cursor: pointer;
+  color: white;
+  background-image: linear-gradient(to bottom, #79ca3e, #60a72c);
+}
+
+.row__game1,
+.row__game2,
+.row__game3 {
+  display: flex;
+  justify-content: space-between;
+}

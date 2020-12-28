@@ -1,0 +1,30 @@
+.competitions {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.competitions__table {
+  background: rgba(0, 0, 0, 0.4);
+  padding-bottom: 20px;
+  border: 1px solid black;
+}
+
+.competitions__table h1 {
+  color: #ffc52d;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.competitions__table h4 {
+  color: white;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.competitions__row {
+  margin-left: 20px;
+  margin-right: 20px;
+}

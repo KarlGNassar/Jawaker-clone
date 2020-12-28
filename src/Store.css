@@ -1,0 +1,97 @@
+.store__info {
+  color: #ffc52d;
+  margin-left: 550px;
+}
+
+.store__tokens {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  background-color: #454545;
+  border: 2px solid black;
+  margin-right: 550px;
+  padding: 10px;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.store__info h1 {
+  margin: 10px;
+}
+
+.store__info h3 {
+  margin-left: 15px;
+}
+
+.store__info button {
+  margin-left: 27px;
+  width: 150px;
+  color: white;
+  background-color: #5eaa27;
+  border: 0;
+  height: 40px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.store__row {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.store__value {
+  display: flex;
+  align-items: center;
+  color: #ffc52d;
+  margin-left: 140px;
+}
+
+.store__choice {
+  border: 3px solid #ffc52d;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.store__choice h1 {
+  color: white;
+  /* margin-left: 40px; */
+  margin-top: 50px;
+}
+
+.store__choice button {
+  border: 0;
+  color: white;
+  background-color: #0e942b;
+  height: 40px;
+  width: 60px;
+  font-weight: 700;
+  font-size: 14px;
+  display: block;
+  margin: auto;
+}
+
+.store__choice img {
+  display: block;
+  margin: auto;
+}
+
+.store__choice button:hover {
+  background-color: #025514;
+  cursor: pointer;
+}
+
+.store__tokens:hover,
+.store__shoppingCart:hover {
+  cursor: pointer;
+}
