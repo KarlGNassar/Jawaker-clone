@@ -93,10 +93,6 @@
   cursor: pointer;
 }
 
-.header__auth > button:hover {
-  color: #ffffff;
-}
-
 #header__auth__login {
   border: 1px solid black;
   color: #abaaa1;
@@ -106,6 +102,9 @@
   height: 40px;
   width: 70px;
   margin: 10px;
+}
+#header__auth__login:hover {
+  color: white;
 }
 
 #header__auth__signup {
